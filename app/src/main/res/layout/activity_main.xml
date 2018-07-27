@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageButton
+        android:id="@+id/imageButtonMaquinas"
+        android:layout_width="334dp"
+        android:layout_height="176dp"
+        android:layout_marginBottom="32dp"
+        android:background="@android:color/white"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonZonas"
+        app:srcCompat="@drawable/maquinas" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDownload"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/white"
+        android:cropToPadding="true"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/download"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonZonas"
+        android:layout_width="336dp"
+        android:layout_height="181dp"
+        android:background="@android:color/white"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonMaquinas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/zonasmusculacion" />
+
+    <TextView
+        android:id="@+id/textViewActualizacion"
+        android:layout_width="296dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Lectura Local"
+        android:textAlignment="textEnd"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonMaquinas"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMaquinas" />
+</android.support.constraint.ConstraintLayout>

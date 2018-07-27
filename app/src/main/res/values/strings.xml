@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MusculacionMalaga</string>
+    <string name="nivel">Nivel</string>
+    <string name="nombre">Nombre</string>
+    <string name="valornivel">ValorNivel</string>
+    <string name="valordesarrollo">ValorDesarrollo</string>
+    <string name="valorfunci_n">ValorFunción</string>
+    <string name="funcion">Función</string>
+    <string name="desarrollo">Desarrollo</string>
+    <string name="precauciones">Precauciones</string>
+    <string name="maq_img_desc">Imagen de la máquina.</string>
+    <string name="zona_img_desc">Imagen de la zona de musculación.</string>
+</resources>
